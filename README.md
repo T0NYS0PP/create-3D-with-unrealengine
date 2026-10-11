@@ -14,6 +14,8 @@ Unreal Engine 5 で 3D 空間をつくる練習用プロジェクトです。
 | `docs/01-first-3d-space.md` | 手作業で最初の 3D 空間をつくる手順 |
 | `docs/02-roadmap.md` | その先のステップ |
 | `docs/03-loft-scene.md` | 自動生成シーンの使い方と調整方法 |
+| `docs/04-local-control.md` | この PC の UE を Claude に操作させる方法（`Tools\ue.cmd`） |
+| `Tools/ue.cmd` | UE をコマンドラインで起動・生成・撮影するヘルパー（Windows） |
 
 ## はじめかた
 
