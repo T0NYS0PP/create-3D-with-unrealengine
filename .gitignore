@@ -38,3 +38,7 @@ Thumbs.db
 # 注意:
 # Content/ 以下の .uasset / .umap はバイナリなので、
 # 大きくなってきたら Git LFS の利用を検討してください（README 参照）。
+
+# Python
+__pycache__/
+*.pyc
