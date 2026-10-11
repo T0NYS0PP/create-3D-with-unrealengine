@@ -1,0 +1,40 @@
+# ===== Unreal Engine =====
+# ビルド生成物・キャッシュ（必ず除外）
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.vs/
+.vscode/
+.idea/
+
+# Visual Studio / Rider のソリューション類（エディタが再生成する）
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+*.code-workspace
+
+# ローカル設定
+Config/DefaultEditorPerProjectUserSettings.ini
+*.user
+
+# 一時ファイル
+*.tmp
+*.log
+*.pdb
+*.ipa
+*.apk
+
+# Windows / macOS
+Thumbs.db
+.DS_Store
+
+# 注意:
+# Content/ 以下の .uasset / .umap はバイナリなので、
+# 大きくなってきたら Git LFS の利用を検討してください（README 参照）。
